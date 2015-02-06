@@ -21,7 +21,7 @@ sap.ui.core.mvc.Controller.extend("ui5_pure_businesspartner_app.view.Master", {
 		sap.ui.core.UIComponent.getRouterFor(this).navTo("Detail",{from: "master", contextPath: oListItem.getBindingContext().getPath().substr(1)});
 	},
 	
-	// new comment
+	// new comment - sebastian test
 	
 	onInit: function() {
 
